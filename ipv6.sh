@@ -10,7 +10,7 @@ uci set dhcp.lan.ra_default='1'
 uci commit dhcp
 
 #Add an init script for NAT6 by creating a new file /etc/init.d/nat6 and paste the code from the section Init Script into it
-wget -P /etc/init.d "https://raw.githubusercontent.com/FunctionXJB/NAT6/master/nat6"
+cp -f nat6 /etc/init.d/nat6
 
 #Make the script executable and enable it
 chmod +x /etc/init.d/nat6
