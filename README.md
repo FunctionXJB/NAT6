@@ -5,6 +5,7 @@ Get IPv6 address by NAT6 in OpenWRT
 
 若可以打开https://raw.githubusercontent.com/FunctionXJB/NAT6/master/ipv6.sh
 则直接运行下面一条命令进行安装配置
+
 ##安装运行##
 
     wget https://raw.githubusercontent.com/XJBFunction/NAT6/master/ipv6.sh && sh ipv6.sh
