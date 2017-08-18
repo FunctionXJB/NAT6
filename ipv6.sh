@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Install the package kmod-ipt-nat6
 opkg update && opkg install kmod-ipt-nat6
 
